@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-from arpym.tools import pca_cov
+from arpym.tools.pca_cov import pca_cov
 
 
 def plot_ellipse(m, s2, *, r=1, n_=1000, display_ellipse=True, plot_axes=False,

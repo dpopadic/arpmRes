@@ -18,14 +18,11 @@ e_2t = np.diff(x_2t)
 
 
 # 3. estimation
-mu = np.array([np.mean(e_1t), np.mean(e_2t)]) / 252
-sigma = np.cov(np.array([e_1t, e_2t])) / 252
+mu = np.array([np.mean(e_1t), np.mean(e_2t)]).transpose()
+sigma = np.cov(np.array([e_1t, e_2t]))
 
 # 4. projection
-
-
-
-
+D = multivariate_t_rvs(m=mu, S=sigma)
 
 
 

@@ -1,9 +1,9 @@
+import matplotlib.pyplot as plt # v. 3.0.3 installed
 from collections import namedtuple
 import numpy as np
 from datetime import datetime, timedelta
 
 from CONFIG import IMGS_DIR
-from matplotlib.pyplot import savefig
 from numpy import meshgrid, pi, power as pow, isnan, diag
 from numpy.linalg import svd, inv, det
 from scipy.interpolate import LinearNDInterpolator, interp2d
@@ -65,7 +65,7 @@ def save_plot(ax, extension, scriptname, count=None):
         fname = ''.join([IMGS_DIR, scriptname, '_', ax.title._text.replace('.','').replace(' ','_'), '.', extension])
     else:
         fname = ''.join([IMGS_DIR, scriptname, '_%d.' % count, extension])
-    savefig(fname, dpi=300)
+    plt.savefig(fname, dpi=300)
 
 
 def rref(x):
