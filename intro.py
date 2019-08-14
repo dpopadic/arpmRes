@@ -1,12 +1,4 @@
-
 import numpy as np
-
-# initialising py repo for arpm material
-
-
-(0.61-0.68+0.68-0.07-0.2+2.55-1.2-0.81+0.14-0.18) / 10
-
-0.08399999999999996 * 52
 
 # simplest case as illustration
 # -----------------------------
