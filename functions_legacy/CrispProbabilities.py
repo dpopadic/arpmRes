@@ -1,8 +1,8 @@
 from numpy import max as npmax, min as npmin, sum as npsum
 from numpy import interp, unique, sort, zeros, tile, array
 
-from HFPcdf import HFPcdf
-from ARPM_utils import matlab_percentile
+from functions_legacy.HFPcdf import HFPcdf
+from functions_legacy.ARPM_utils import matlab_percentile
 
 
 def CrispProbabilities(Conditioner):

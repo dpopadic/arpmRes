@@ -7,9 +7,9 @@ from tqdm import trange
 
 plt.style.use('seaborn')
 
-from MaxLikelihoodFPLocDispT import MaxLikelihoodFPLocDispT
-from MaxLikFPTReg import MaxLikFPTReg
-from SmartInverse import SmartInverse
+from functions_legacy.MaxLikelihoodFPLocDispT import MaxLikelihoodFPLocDispT
+from functions_legacy.MaxLikFPTReg import MaxLikFPTReg
+from functions_legacy.SmartInverse import SmartInverse
 
 
 def DiffLengthMLFP(epsi, p, nu, threshold, smartinverse=0, maxiter=10 ** 5):

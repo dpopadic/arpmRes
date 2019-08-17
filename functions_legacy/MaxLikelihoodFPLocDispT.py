@@ -3,7 +3,7 @@ from numpy import sum as npsum
 from numpy import zeros, tile, r_, squeeze
 from numpy.linalg import solve, norm
 
-from SmartInverse import SmartInverse
+from functions_legacy.SmartInverse import SmartInverse
 
 
 def MaxLikelihoodFPLocDispT(epsi, p, nu, threshold, last=0, smartinverse=0, maxiter=10 ** 5):

@@ -3,7 +3,7 @@ from numpy import r_, array, ones, squeeze
 from numpy import sum as npsum
 from numpy.linalg import solve, norm
 
-from OrdLeastSquareFPNReg import OrdLeastSquareFPNReg
+from functions_legacy.OrdLeastSquareFPNReg import OrdLeastSquareFPNReg
 
 
 def MaxLikFPTReg(X, Z, p, nu, threshold, last=0, smartinverse=0, maxiter=10**5):

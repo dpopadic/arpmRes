@@ -7,7 +7,7 @@ from numpy.linalg import solve as solve
 
 EPS = np.spacing(1)
 
-from FactorAnalysis import FactorAnalysis
+from functions_legacy.FactorAnalysis import FactorAnalysis
 
 
 def SmartInverse(sig2, tol=EPS):

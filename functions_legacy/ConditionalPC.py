@@ -2,7 +2,7 @@ import numpy as np
 from numpy import eye, empty
 from numpy.linalg import matrix_rank, solve
 
-from pcacov import pcacov
+from functions_legacy.pcacov import pcacov
 
 def ConditionalPC(sigma2, d):
     # This def computes the conditional principal directions/variances of a

@@ -6,7 +6,7 @@ from numpy.linalg import eig, matrix_rank
 
 plt.style.use('seaborn')
 
-from ConditionalPC import ConditionalPC
+from functions_legacy.ConditionalPC import ConditionalPC
 
 
 def FactorAnalysis(c2,d,k_):

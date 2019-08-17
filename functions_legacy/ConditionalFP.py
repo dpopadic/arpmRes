@@ -1,7 +1,7 @@
 from numpy import sum as npsum, zeros, ones, r_
 
-from CrispProbabilities import CrispProbabilities
-from MinRelEntFP import MinRelEntFP
+from functions_legacy.CrispProbabilities import CrispProbabilities
+from functions_legacy.MinRelEntFP import MinRelEntFP
 
 
 def ConditionalFP(Conditioner, prior):

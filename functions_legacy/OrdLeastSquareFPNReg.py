@@ -1,8 +1,8 @@
 import numpy as np
 from numpy import tile, r_, concatenate
 
-from FPmeancov import FPmeancov
-from SmartInverse import SmartInverse
+from functions_legacy.FPmeancov import FPmeancov
+from functions_legacy.SmartInverse import SmartInverse
 
 
 def OrdLeastSquareFPNReg(X, Z, p, smartinverse=0):
