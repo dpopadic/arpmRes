@@ -1,6 +1,16 @@
 # arpmRes
 Advanced Risk and Portfolio Management Resources
 
+This repo contains material from the Advanced Risk and Portfolio Management (ARPM) Bootcamp developed by Attilio Meucci.
+It includes the covered ARPM theory, review sessions, guest presentations and the code. In order to
+apply the code, one should first go through the relevant material.
+
+**Theory**: go to Research Library (Mendeley) -> rARPM
+
+**Code**: arpym (ARPM bootcamp specific library with functions), functions_legacy (ARPM legacy functions),
+scripts/sources (Case studies applying the theory)
+
+
 Overview
 --------
 
@@ -13,18 +23,6 @@ The following material is divided into 4 modules:
 It covers the most advanced quantitative techniques in data science & machine learning, market
 modelling, factor modelling, portfolio construction, algorithmic training, investment risk management, liquidity
 modelling and enterprise risk management.
-
-
-Resources
----------
-
-Available material include the covered ARPM theory, review sessions, guest presentations and the code. In order to
-apply the code, one should first go through the relevant material.
-
-**Theory**: go to Research Library (Mendeley) -> rARPM
-
-**Code**: arpym (ARPM bootcamp specific library with functions), functions_legacy (ARPM legacy functions),
-scripts/sources (Case studies applying the theory)
 
 
 Structure
