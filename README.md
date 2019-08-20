@@ -21,9 +21,9 @@ Resources
 Available material include the covered ARPM theory, review sessions, guest presentations and the code. In order to
 apply the code, one should first go through the relevant material.
 
-Theory: go to Research Library (Mendeley) -> rARPM
+**Theory**: go to Research Library (Mendeley) -> rARPM
 
-Code: arpm (ARPM bootcamp specific library with functions), functions_legacy (ARPM legacy functions),
+**Code**: arpym (ARPM bootcamp specific library with functions), functions_legacy (ARPM legacy functions),
 scripts/sources (Case studies applying the theory)
 
 
@@ -38,7 +38,7 @@ the models. The 10 sequential steps are summarised graphically:
 <img src="img/general_framework.png" height=400/ width=600/>
 </p>
 
-The checklist can be explained by examining a portfolio at time $t_{now}$. The focus in on the performance and we
+The checklist can be explained by examining a portfolio at time $t_{now}$. The focus is on the performance and we
 have two goals:
  1) Risk management: measure the risk between $t_{now}$ and the investment horizon $t_{hor}$
  2) Portfolio management: optimise future performance over horizon
