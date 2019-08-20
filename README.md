@@ -1,7 +1,8 @@
 # arpmRes
 Advanced Risk and Portfolio Management Resources
 
-# Overview
+Overview
+--------
 
 The following material is divided into 4 modules:
   1. Data Science for Finance
@@ -13,6 +14,16 @@ It covers the most advanced quantitative techniques in data science & machine le
 modelling, factor modelling, portfolio construction, algorithmic training, investment risk management, liquidity
 modelling and enterprise risk management.
 
+
+Resources
+---------
+
+Available material include the covered ARPM theory, review sessions, guest presentations and the code. In order to
+apply the code, one should first go through the relevant material.
+
+Theory: go to Research Library (Mendeley) -> rARPM
+Code: arpm (ARPM bootcamp specific library with functions), functions_legacy (ARPM legacy functions),
+scripts/sources (Case studies applying the theory)
 
 
 Structure
@@ -49,7 +60,10 @@ how to perform dynamic rebalancing in multi-period strategies.
 <img src="img/ten_steps.PNG" align="center" height=600/ width=800/>
 </p>
 
-# Installation
+
+Installation
+------------
+
 To install the repo, start a new project and clone the repo. Then, do the following steps:
 
 1. Setup the virtual environment for python. To do this, go to File -> Settings -> Project:arpmRes ->
