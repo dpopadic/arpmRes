@@ -34,15 +34,15 @@ To achieve this, you have to accumulate all data up to $t_{now}$ and this involv
 tractable time series; how to perform estimation on such time series using econometric techniques; and how to revert
 back to the joint predictive distribution of the performance of each instrument over the future investment horizon.
 
-2. Risk Management (steps 6-8): How to aggregate the ex-ante performance of each instrument into a portfolio
+2. **Risk Management (steps 6-8)**: How to aggregate the ex-ante performance of each instrument into a portfolio
 performance; how to evaluate the riskiness of a portfolio using metrics such as VaR, Tracking-Error etc. or by
 performing stress-testing; and how to attribute portfolio risk to different sources.
 
-3. Portfolio Management (steps 9-10): How to construct a portfolio using simple mean-variance or more complex
+3. **Portfolio Management (steps 9-10)**: How to construct a portfolio using simple mean-variance or more complex
 objectives; how to strengthen the construction process to address estimation risk; how to optimally execute trades; and
 how to perform dynamic rebalancing in multi-period strategies.
 
-<img src="img/ten_steps.PNG" align="center" height=400/ width=600/>
+<img src="img/ten_steps.PNG" align="center" height=600/ width=800/>
 
 
 # Installation
