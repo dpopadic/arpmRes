@@ -20,7 +20,7 @@ The "Checklist" consists of 10 sequential steps to model, assess and improve the
 following these steps in the checklist, one can avoid common pitfalls and ensure not to miss important features in
 the models. The 10 sequential steps are summarised graphically:
 
-<center><img src="img/general_framework.png" height=400/ width=600/>
+<img src="img/general_framework.png" style="margin: auto" height=400/ width=600/>
 
 
 The checklist can be explained by examining a portfolio at time $t_{now}$. The focus in on the performance and we
