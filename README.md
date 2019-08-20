@@ -22,6 +22,7 @@ Available material include the covered ARPM theory, review sessions, guest prese
 apply the code, one should first go through the relevant material.
 
 Theory: go to Research Library (Mendeley) -> rARPM
+
 Code: arpm (ARPM bootcamp specific library with functions), functions_legacy (ARPM legacy functions),
 scripts/sources (Case studies applying the theory)
 
