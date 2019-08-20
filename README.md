@@ -23,14 +23,14 @@ the models. The 10 sequential steps are summarised graphically:
 <img src="img/general_framework.png" align="center" height=400/ width=600/>
 
 
-The checklist can be explained by examining a portfolio at time $\t_{now}$. The focus in on the performance and we
+The checklist can be explained by examining a portfolio at time $t_{now}$. The focus in on the performance and we
 have two goals:
  1) risk management: measure the risk between $t_{now}$ and the investment horizon $t_{hor}$
  2) portfolio management: optimise future performance over horizon
 
 To achieve this, you have to accumulate all data up to $t_{now}$ and this involves the following 10 steps.
 
-1. Data Processing (steps 1-5): These steps show how to transform raw data for different financial instruments into
+1. **Data Processing (steps 1-5)**: These steps show how to transform raw data for different financial instruments into
 tractable time series; how to perform estimation on such time series using econometric techniques; and how to revert
 back to the joint predictive distribution of the performance of each instrument over the future investment horizon.
 
@@ -42,7 +42,7 @@ performing stress-testing; and how to attribute portfolio risk to different sour
 objectives; how to strengthen the construction process to address estimation risk; how to optimally execute trades; and
 how to perform dynamic rebalancing in multi-period strategies.
 
-<img src="img/ten_steps.png" align="center" height=400/ width=600/>
+<img src="img/ten_steps.PNG" align="center" height=400/ width=600/>
 
 
 # Installation
