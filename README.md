@@ -19,7 +19,7 @@ The "Checklist" consists of 10 sequential steps to model, assess and improve the
 following these steps in the checklist, one can avoid common pitfalls and ensure not to miss important feature in
 the models.
 
-<img src="img/general_framework.png" height=140/ width=200/>
+<img src="img/general_framework.png" height=400/ width=600/>
 
 
 # Installation
