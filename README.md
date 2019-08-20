@@ -14,7 +14,9 @@ modelling, factor modelling, portfolio construction, algorithmic training, inves
 modelling and enterprise risk management.
 
 
-# Content
+
+Structure
+---------
 
 The "Checklist" consists of 10 sequential steps to model, assess and improve the performance of the portfolio. By
 following these steps in the checklist, one can avoid common pitfalls and ensure not to miss important features in
@@ -26,8 +28,8 @@ the models. The 10 sequential steps are summarised graphically:
 
 The checklist can be explained by examining a portfolio at time $t_{now}$. The focus in on the performance and we
 have two goals:
- 1) risk management: measure the risk between $t_{now}$ and the investment horizon $t_{hor}$
- 2) portfolio management: optimise future performance over horizon
+ 1) Risk management: measure the risk between $t_{now}$ and the investment horizon $t_{hor}$
+ 2) Portfolio management: optimise future performance over horizon
 
 To achieve this, you have to accumulate all data up to $t_{now}$ and this involves the following 10 steps.
 
@@ -43,8 +45,9 @@ performing stress-testing; and how to attribute portfolio risk to different sour
 objectives; how to strengthen the construction process to address estimation risk; how to optimally execute trades; and
 how to perform dynamic rebalancing in multi-period strategies.
 
+<p align="center">
 <img src="img/ten_steps.PNG" align="center" height=600/ width=800/>
-
+</p>
 
 # Installation
 To install the repo, start a new project and clone the repo. Then, do the following steps:
